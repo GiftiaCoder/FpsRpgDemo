@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerCommand>D:\Projects\VisualCPP\Demo\FpsRpgDemo\x64\Release\FpsRpgDemo.exe</LocalDebuggerCommand>
+    <LocalDebuggerWorkingDirectory>D:\Projects\VisualCPP\Demo\FpsRpgDemo\FpsRpgDemo</LocalDebuggerWorkingDirectory>
+    <RemoteDebuggerWorkingDirectory>..\..\Demo\FpsRpgDemo\FpsRpgDemo</RemoteDebuggerWorkingDirectory>
+  </PropertyGroup>
+</Project>
