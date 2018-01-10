@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Camera">
+      <UniqueIdentifier>{056ebf9c-6d91-4d21-98cb-02dcf3d75368}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI">
+      <UniqueIdentifier>{52d10d38-a81a-4104-975f-beae000e5aac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="APP">
+      <UniqueIdentifier>{671b6eb6-2cdc-48ce-86bc-84faf16e62cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UTIL">
+      <UniqueIdentifier>{26cda8d0-6bef-44f8-b6ed-340780f3568a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UTIL\Vector">
+      <UniqueIdentifier>{36be1406-a853-4f64-a8eb-e30c80a8e0ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model">
+      <UniqueIdentifier>{28de4f90-b6b8-46dd-b250-e58e15198cdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Exception">
+      <UniqueIdentifier>{b2ac42dd-cef8-4c4d-9096-ccd64f14af7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{77881ab2-747a-4981-b514-0a79f999606b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Character">
+      <UniqueIdentifier>{0adf9828-501e-4189-a859-e324b78666ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Character\NPC">
+      <UniqueIdentifier>{f788d546-abdb-40e3-9a92-f8bc09fc2305}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Character\Player">
+      <UniqueIdentifier>{17ec679b-be2a-4676-b2f6-e429586ac8a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scene">
+      <UniqueIdentifier>{f0368243-1304-4a37-8051-01eac43795fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Object">
+      <UniqueIdentifier>{cc8dbb96-7498-4543-bc20-c5dc8394843f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GLFrame.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="AppEntry.h">
+      <Filter>APP</Filter>
+    </ClInclude>
+    <ClInclude Include="GLUtil.h">
+      <Filter>UTIL</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>UTIL\Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="MathUtil.h">
+      <Filter>UTIL</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Exception.h">
+      <Filter>Exception</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera2D.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera3D.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Game\Character\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="NpcBase.h">
+      <Filter>Game\Character\NPC</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderable.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Sky.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Ground.h">
+      <Filter>Game\Object</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GLFrame.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="AppEntry.cpp">
+      <Filter>APP</Filter>
+    </ClCompile>
+    <ClCompile Include="GLUtil.cpp">
+      <Filter>UTIL</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Exception.cpp">
+      <Filter>Exception</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera2D.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera3D.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Game\Character\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="NpcBase.cpp">
+      <Filter>Game\Character\NPC</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderable.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Sky.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Ground.cpp">
+      <Filter>Game\Object</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
